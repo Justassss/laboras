@@ -1,0 +1,89 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name {
+   
+    text-align: center;
+    margin-bottom: 20px;
+    color:black
+    
+}
+
+.textas {
+    text-align: center;
+    margin-left: 30px;
+    display: block;
+}
+.Apiebody {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ApieInfo {
+    margin-left: 30px;
+}
+.faktai1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.faktai2 {
+    min-width: 200px;
+    padding: 15px 3% 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position:absolute;
+  }
+
+  .image2 {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.2;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .progresas{
+    height: 10px;
+    background-color: blue;
+    margin-bottom: 10px;
+    position:relative
+  }
+  .image1 {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+ 
